@@ -1,0 +1,173 @@
+/* line 5, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/vendor.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-border-sizing: border-box;
+  -moz-border-sizing: border-box;
+  border-sizing: border-box;
+}
+
+/* line 10, ../sass/vendor.scss */
+*::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 15, ../sass/vendor.scss */
+p, h3 {
+  text-align: center;
+}
+
+/* line 18, ../sass/vendor.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 21, ../sass/vendor.scss */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/* line 27, ../sass/vendor.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 30, ../sass/vendor.scss */
+body {
+  color: #3c3c3c;
+  font-size: 14px;
+  font-family: DFKai-SB,microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif;
+  line-height: 1.428;
+}
+
+/* line 36, ../sass/vendor.scss */
+.container {
+  width: 960px;
+  margin: 30px auto;
+}
+/* line 39, ../sass/vendor.scss */
+.container .left, .container .center, .container .right {
+  float: left;
+  width: 300px;
+  margin: 0 10px;
+  border: 1px solid gray;
+  text-align: center;
+}
+/* line 46, ../sass/vendor.scss */
+.container .left {
+  float: left;
+  width: 300px;
+  margin: 0;
+  border: 1px solid gray;
+}
+/* line 47, ../sass/vendor.scss */
+.container .left p {
+  padding: 20px 0;
+}
+/* line 54, ../sass/vendor.scss */
+.container .left ul {
+  margin: 0 auto;
+  width: 96%;
+  border: 1px solid gray;
+}
+/* line 58, ../sass/vendor.scss */
+.container .left ul li {
+  display: block;
+  float: left;
+  width: 32.64%;
+  border: 1px solid gray;
+  height: 100px;
+  text-align: center;
+}
+/* line 65, ../sass/vendor.scss */
+.container .left ul li .things {
+  width: 100%;
+  height: 36px;
+  background: url(../image/cola.png) no-repeat -6px 3px;
+}
+/* line 70, ../sass/vendor.scss */
+.container .left ul li p {
+  padding: 0;
+}
+/* line 75, ../sass/vendor.scss */
+.container .left ul .active .things {
+  background-position: -101px 3px;
+}
+/* line 82, ../sass/vendor.scss */
+.container .center h3 {
+  margin: 30px 0;
+}
+/* line 87, ../sass/vendor.scss */
+.container .right #out {
+  margin: 30px 0;
+}

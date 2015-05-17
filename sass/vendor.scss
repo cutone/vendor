@@ -1,0 +1,91 @@
+@import "compass/reset";
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-border-sizing: border-box;
+	-moz-border-sizing: border-box;
+	border-sizing: border-box;
+}
+*::after,*::before{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+p,h3{
+	text-align: center;
+}
+.clearfix{
+	*zoom: 1;
+}
+.clearfix:before,
+.clearfix:after{
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+body{
+	color:#3c3c3c;
+	font-size: 14px;
+	font-family: DFKai-SB,microsoft yahei,tahoma,arial,\5b8b\4f53,sans-serif;
+	line-height: 1.428;
+}
+.container{
+	width: 960px;
+	margin: 30px auto;
+	.left,.center,.right{
+		float: left;
+		width: 300px;
+		margin: 0 10px;
+		border: 1px solid gray;
+		text-align: center;
+	}
+	.left{
+		p{
+			padding: 20px 0;
+		}
+		float: left;
+		width: 300px;
+		margin: 0;
+		border: 1px solid gray;
+		ul{
+			margin: 0 auto;
+			width: 96%;
+			border: 1px solid gray;
+			li{
+				display: block;
+				float: left;
+				width: 32.64%;
+				border: 1px solid gray;
+				height: 100px;
+				text-align: center;
+				.things{
+					width: 100%;
+					height: 36px;
+					background: url(../image/cola.png) no-repeat -6px 3px;
+				}
+				p{
+					padding: 0;
+				}
+			}
+			.active{
+				.things{
+					background-position: -101px 3px;
+				}
+			}
+		}
+	}
+	.center{
+		h3{
+			margin: 30px 0;
+		}
+	}
+	.right{
+		#out{
+			margin: 30px 0;
+		}
+	}
+}
